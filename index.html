@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="English with teacherdiaz Accessibility quiz practice project"/>
+<title>Accessibility Quiz</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<header>
+<img id="logo" alt="EnglishwithElvis" src="tormenta.png">
+<h1>GRAMMAR/VOCABULARY Quiz</h1>
+<nav>
+<ul>
+<li><a href="#student-info">INFO</a></li>
+<li><a href="#grammar-questions">GRAMMAR</a></li>
+<li><a href="#vocabulary-questions">VOCABULARY</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<form action="teacherdiaz.today@gmail.com" method="post">
+<section role="region" aria-labelledby="student-info">
+<h2 id="student-info">Student Info</h2>
+<div class="info">
+<label for="student-name">Name:</label>
+<input id="student-name" type="text" name="student-name" required />
+</div>
+<div class="info">
+<label for="student-email">Email:</label>
+<input id="student-email" type="email" name="student-email" required />
+</div>
+<div class="info">
+<label for="birth-date">Date of Birth:</label>
+<input id="birth-date" type="date" name="birth-date" required />
+</div>
+</section>
+<section role="region" aria-labelledby="grammar-questions">
+<h2 id="grammar-questions">Grammar</h2>
+<div class="question-block">
+<h3><span class="sr-only">Question</span>1</h3>
+<fieldset class="question" name="grammar-question-one">
+<legend>The verb "went" is the past simple of "go."</legend>
+<ul class="answers-list">
+<li>
+<label for="q1-a1">
+<input type="radio" id="q1-a1" name="q1" value="true" />True
+</label>
+</li>
+<li>
+<label for="q1-a2">
+<input type="radio" id="q1-a2" value="false" name="q1" />False
+</label>
+</li>
+</ul>
+</fieldset>
+</div>
+<div class="question-block">
+<h3><span class="sr-only">Question</span>2</h3>
+<fieldset class="question" name="grammar-question-two">
+<legend>"Do" is the auxiliary word to make questions and negative statements in future tense.</legend>
+<ul class="answers-list">
+<li>
+<label for="q2-a1">
+<input type="radio" id="q2-a1" value="true" name="q2"/>True
+</label>
+</li>
+<li>
+<label for="q2-a2">
+<input type="radio"/ id="q2-a2" value="false" name="q2" />False 
+</label>
+</li>
+</ul>
+</fieldset>
+</div>
+<div class="question-block">
+<h3><span class="sr-only">Question</span>3</h3>
+<fieldset class="question" name="grammar-question-three">
+<legend>We use the auxiliary word "did" to express past simple.</legend>
+<ul class="answers-list">
+<li>
+<label for="q3-a1">
+<input type="radio" id="q3-a1" value="true" name="q3"/>True
+</label>
+</li>
+<li>
+<label for="q3-a2">
+<input type="radio"/ id="q3-a2" value="false" name="q3" />False 
+</label>
+</li>
+</ul>
+</fieldset>
+</div>
+<div class="question-block">
+<h3><span class="sr-only">Question</span>4</h3>
+<fieldset class="question" name="grammar-question-four">
+<legend>"I go on vacation this Saturday." The sentence expresses future</legend>
+<ul class="answers-list">
+<li>
+<label for="q4-a1">
+<input type="radio" id="q4-a1" value="true" name="q4"/>True
+</label>
+</li>
+<li>
+<label for="q4-a2">
+<input type="radio"/ id="q4-a2" value="false" name="q4" />False 
+</label>
+</li>
+</ul>
+</fieldset>
+</div>
+<div class="question-block">
+<h3><span class="sr-only">Question</span>5</h3>
+<fieldset class="question" name="grammar-question-five">
+<legend>"Have you seen the new action movie?" This sentence is in present simple</legend>
+<ul class="answers-list">
+<li>
+<label for="q5-a1">
+<input type="radio" id="q5-a1" value="true" name="q5"/>True
+</label>
+</li>
+<li>
+<label for="q5-a2">
+<input type="radio"/ id="q5-a2" value="false" name="q5" />False 
+</label>
+</li>
+</ul>
+</fieldset>
+</div>
+</section>
+<section role="region" aria-labelledby="vocabulary-questions">
+<h2 id="vocabulary-questions">Vocabulary</h2>
+<div class="formrow">
+<div class="question-block">
+<label for="selector">Does the word "preorder" have a prefix?</label>
+</div>
+<div class="answer">
+<select required name="selector" id="selector">
+<option value="">Select an option</option>
+<option value="yes">Yes</option> 
+<option value="no">No</option>
+</select></div>
+<div class="question-block"><label for="vocabulary-questions">Do you have any questions:</label></div>
+<div class="answer"><textarea rows="5" cols="24" id="vocabulary-textarea" name="vocabulary-questions" required></textarea>
+</div> 
+</div>
+</section> 
+<button type="submit">Send</button> 
+</form>
+</main> 
+<footer>
+<address>
+<a href="mailto:teacherdiaz.today&#64;gmail.com">LearnEnglishwithElvis</a></br>
+Let's Grow Together<br/> 
+</address>
+</footer> 
+</body>
+</html> 
