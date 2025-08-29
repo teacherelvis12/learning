@@ -95,7 +95,7 @@
 <div class="question-block">
 <h3><span class="sr-only">Question</span>4</h3>
 <fieldset class="question" name="grammar-question-four">
-<legend>"I go on vacation this Saturday." The sentence expresses future</legend>
+<legend>"I go on vacation this Saturday." The sentence expresses future.</legend>
 <ul class="answers-list">
 <li>
 <label for="q4-a1">
@@ -145,11 +145,30 @@
 <div class="answer"><textarea rows="5" cols="24" id="vocabulary-textarea" name="vocabulary-questions" required></textarea>
 </div> 
 </div>
-</section> 
-<button type="submit">Send</button> 
+</section>  
 </form>
 </main> 
 <p>Play tic-tac-toe<p/>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Tic Tac Toe — Phaser 3</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+  <--#0f172a-->
+    html, body { height: 100%; margin: 0; background:; display: grid; place-items: center; }
+    #game { box-shadow: 0 10px 30px rgba(0,0,0,.35); border-radius: 20px; overflow: hidden; }
+    .hint { color: #e2e8f0; margin-top: 10px; font-size: 14px; text-align: center; opacity: .85; } 
+  </style>
+  <!-- Stable Phaser 3 CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.min.js"></script>
+</head>
+<body>
+  <div id="game"></div>
+  <div class="hint">Click a cell to play. Tap “Restart” to start over.</div>
+  <script src="./game.js"></script>
+</body>
+</html>
 <footer>
 <address>
 <a href="mailto:teacherdiaz.today&#64;gmail.com">LearnEnglishwithElvis</a></br>
@@ -159,3 +178,4 @@
 </body>
 
 </html> 
+
