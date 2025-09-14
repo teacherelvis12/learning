@@ -81,7 +81,7 @@ button    {display: block;
 footer      {background-color: #2a2a40;
              display: flex;
 			 justify-content: center;} 
-footer, footer a {color: #0000EE;}
+footer, footer a {color: #FFD700;}
 address      {text-align: center;
               padding: 0.3em;}
 .sr-only {position: absolute;
@@ -94,6 +94,7 @@ address      {text-align: center;
  p {color:#dfdfe2;}
 p1{ text-align: center;
    color: rgb(255, 165, 0);}
+
 
 
 
